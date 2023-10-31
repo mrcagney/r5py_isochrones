@@ -12,8 +12,11 @@ python = ">=3.9,<4.0"
 r5py = ">=0.1.0"
 geopandas = "^0.14.0"
 r5py-sampledata-helsinki = "^0.1.2"
-pyrosm = "^0.6.2"
 loguru = "^0.7.2"
+folium = "^0.14.0"
+matplotlib = "^3.8.0"
+mapclassify = "^2.6.1"
+pyrosm = "^0.6.2"
 
 
 [tool.poetry.group.dev.dependencies]
