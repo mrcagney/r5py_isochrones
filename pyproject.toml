@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "r5py-isochrone"
+version = "1.0.0"
+description = "Isochrone experiments with r5py"
+authors = ["Alex Raichev <araichev@mrcagney.com>"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+r5py = ">=0.1.0"
+geopandas = ">=0.14.0"
+loguru = ">=0.7.2"
+folium = ">=0.14.0"
+matplotlib = ">=3.8.0"
+mapclassify = ">=2.6.1"
+pyrosm = ">=0.6.2"
+geohexgrid = ">=1.1.0"
+pyogrio = ">=0.7.2"
+jupyter = ">=1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = ">=3.5.0"
+nbstripout = ">=0.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
