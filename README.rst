@@ -1,4 +1,4 @@
-r5py Isochrone
+r5py Isochrones
 ***************
 Isochrone experiments with r5py.
 All code and examples lie in the Jupyter notebook ``notebooks/examples.ipynb``.

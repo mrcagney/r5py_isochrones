@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "r5py-isochrone"
+name = "r5py-isochrones"
 version = "1.0.0"
 description = "Isochrone experiments with r5py"
 authors = ["Alex Raichev <araichev@mrcagney.com>"]
