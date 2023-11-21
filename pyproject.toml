@@ -1,15 +1,10 @@
 [tool.poetry]
 name = "r5py_isochrones"
-version = "1.1.0"
+version = "1.2.0"
 description = "Isochrone experiments with r5py"
 authors = ["Alex Raichev <araichev@mrcagney.com>"]
 license = "MIT"
 readme = "README.rst"
-exclude = [
-    # Don't need these folders in the library
-    "data",
-    "notebooks",
-]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
